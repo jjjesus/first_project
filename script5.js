@@ -3,7 +3,7 @@ var changeBg = function (event) {
     console.log("method called");
     var me = event.target
     ,   square = document.getElementById("square");
-    square.style.backgroundColor = "#ffaa44";
+    square.style.backgroundColor = "#ff0000";
     me.setAttribute("disabled", "disabled");
     setTimeout(function () { clearDemo(me) }, 2000);
 }
